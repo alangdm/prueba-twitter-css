@@ -12,6 +12,7 @@
   "dependencies": {
     "ejs": "2.4.1",
     "express": "4.13.3",
+    "moment": "^2.17.1",
     "oauth": "^0.9.14",
     "twitter": "^1.7.0"
   },
