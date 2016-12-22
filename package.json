@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "prueba-twitter-css",
   "version": "0.2.5",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Prueba de feed de twitter en css",
   "engines": {
     "node": "5.9.1"
   },
@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "ejs": "2.4.1",
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "oauth": "^0.9.14",
+    "twitter": "^1.7.0"
   },
   "repository": {
     "type": "git",
