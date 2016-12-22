@@ -3,7 +3,7 @@
   "version": "0.2.5",
   "description": "Prueba de feed de twitter en css",
   "engines": {
-    "node": "5.9.1"
+    "node": "6.4.0"
   },
   "main": "index.js",
   "scripts": {
