@@ -1,3 +1,5 @@
+"use strict";
+
 const express = require('express');
 const OAuth2 = require('OAuth').OAuth2;
 const Twitter = require('twitter');
