@@ -36,7 +36,7 @@ app.get('/tweets.css', function(request, response) {
             let avatar = user.profile_image_url_https;
             let name = user.name;
             let handle = user.screen_name;
-            let timestamp = moment(statuses[i].created_at).locale('es-MX').format('DD MMM');
+            let timestamp = moment(new Date(statuses[i].created_at)).locale('es-MX').format('DD MMM');
             let copy = statuses[i].text.split('\n').join(' ');
             let id = '#tweet-' + (i + 1);
 
