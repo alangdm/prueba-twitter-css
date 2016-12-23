@@ -2,5 +2,20 @@
   "name": "Prueba Twitter CSS",
   "description": "Prueba de generacion de feed de twitter en css",
   "repository": "https://github.com/alangdm/prueba-twitter-css",
-  "keywords": ["node", "express", "twitter", "css"]
+  "keywords": ["node", "express", "twitter", "css"],
+  "success_url": "/tweets.css",
+  "env": {
+    "TWITTER_CONSUMER_KEY": {
+      "description": "Tu llave de aplicación de Twitter de https://apps.twitter.com",
+      "required": true
+    },
+    "TWITTER_CONSUMER_SECRET": {
+      "description": "Tu secreto de aplicación de Twitter de https://apps.twitter.com",
+      "required": true
+    },
+    "TWITTER_SEARCH_STRING": {
+      "description": "El string del término a buscar (`-rt` significa sin retweets)",
+      "value": "#hi -rt",
+      "required": true
+    }
 }
