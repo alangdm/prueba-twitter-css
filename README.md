@@ -1,39 +1,34 @@
-# node-js-getting-started
+# Feed de Twitter en css
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+Basado en https://github.com/litmus/example-css-tweets
 
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
+## Deploy
+Puedes hacer deploy a [Heroku](https://heroku.com) usando el botón debajo.
+Después de crear tu [Aplicación de Twitter](https://apps.twitter.com), da
+clíc al botón de "Deploy to Heroku" y sigue los pasos indicados para crear tu
+propia versión de la aplicación.
 
-## Running Locally
-
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
-
-```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
-$ cd node-js-getting-started
-$ npm install
-$ npm start
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-## Deploying to Heroku
+En caso de que no te lo pida, deberás agregar a las variables de configuración
+las siguientes:
 
 ```
-$ heroku create
-$ git push heroku master
-$ heroku open
+TWITTER_CONSUMER_KEY - Tu llave de aplicación de Twitter
+TWITTER_CONSUMER_SECRET - Tu secreto de aplicación de Twitter
+TWITTER_SEARCH_STRING - El string del término a buscar
 ```
-or
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Documentation
+## Desarrollo Local
 
-For more information about using Node.js on Heroku, see these Dev Center articles:
+### Requerimientos
+* Git
+* Node.js (6.4.0 o superior)
 
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
-- [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
-- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
-- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
+### Setup
+1. Clona el repositorio: `git clone https://github.com/alangdm/prueba-twitter-css`
+2. Instala Dependencias: `cd prueba-twitter-css && npm install`
+3. Crea tu aplicación de Twitter: https://apps.twitter.com/
+4. Crea un archivo de Environment y asigna las tres variables de configuración mencionadas arriba a manera de `VARIABLE="valor"`
+5. Corre el comando `node index.js` o `heroku local web` si tienes instalado el CLI de Heroku
+6. Visita [http://localhost:5000/tweets.css](http://localhost:5000/tweets.css)

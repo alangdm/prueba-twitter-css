@@ -8,7 +8,7 @@ const app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
-app.get('/twitter.css', function(request, response) {
+app.get('/tweets.css', function(request, response) {
   //Auth
   const key = process.env.TWITTER_CONSUMER_KEY;
   const secret = process.env.TWITTER_CONSUMER_SECRET;

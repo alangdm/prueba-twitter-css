@@ -1,7 +1,6 @@
 {
   "name": "Prueba Twitter CSS",
-  "description": "Prueba de feed de twitter en css",
-  "repository": "https://github.com/",
-  "keywords": ["node", "express", "static", "twitter"],
-  "image": "heroku/nodejs"
+  "description": "Prueba de generacion de feed de twitter en css",
+  "repository": "https://github.com/alangdm/prueba-twitter-css",
+  "keywords": ["node", "express", "twitter", "css"]
 }

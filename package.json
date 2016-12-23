@@ -1,7 +1,7 @@
 {
   "name": "prueba-twitter-css",
   "version": "0.2.5",
-  "description": "Prueba de feed de twitter en css",
+  "description": "Prueba de generacion de feed de twitter en css",
   "engines": {
     "node": "6.4.0"
   },
@@ -18,12 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/alangdm/prueba-twitter-css"
   },
   "keywords": [
     "node",
     "heroku",
-    "express"
+    "express",
+    "twitter",
+    "css"
   ],
   "license": "MIT"
 }
