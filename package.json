@@ -10,7 +10,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "ejs": "2.5.1",
+    "ejs": "2.5.5",
     "express": "4.13.3",
     "moment": "^2.17.1",
     "oauth": "^0.9.14",
